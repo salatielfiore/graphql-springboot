@@ -1,0 +1,5 @@
+type Query {
+    listarPessoas: [Pessoa]
+    buscarPessoaPorId(id: ID): Pessoa
+    buscarPessoaPorNome(nome: String): Pessoa
+}

@@ -1,0 +1,5 @@
+type Mutation {
+    criarPessoa(pessoa: PessoaInput): Pessoa
+    atualizarPessoa(pessoa: PessoaInput): Pessoa
+    deletarPessoa(id: ID): String
+}
